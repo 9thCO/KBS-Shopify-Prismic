@@ -1,0 +1,105 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "content": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Payments tool for software companies",
+              "spans": []
+            },
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      },
+      "background_color": {
+        "__TYPE__": "FieldContent",
+        "type": "Color",
+        "value": "#DE5959"
+      },
+      "image": {
+        "url": "https://images.unsplash.com/photo-1528821128474-27f963b062bf?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxMnx8ZnJ1aXR8ZW58MHx8fHwxNjkzMDc2NjQ3fDA&ixlib=rb-4.0.3&q=85&rect=1133%2C606%2C2971%2C2224&w=943&h=706",
+        "origin": {
+          "id": "lZ8onQ1wuY8",
+          "url": "https://images.unsplash.com/photo-1528821128474-27f963b062bf?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxMnx8ZnJ1aXR8ZW58MHx8fHwxNjkzMDc2NjQ3fDA&ixlib=rb-4.0.3&q=85",
+          "width": 943,
+          "height": 706
+        },
+        "width": 943,
+        "height": 706,
+        "edit": {
+          "background": "transparent",
+          "zoom": 1.55,
+          "crop": {
+            "x": 1133,
+            "y": 606
+          }
+        },
+        "alt": "Cherries",
+        "credits": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "button_link",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          ],
+          [
+            "button_text",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "Speak to sales",
+              "type": "Text"
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "button_link",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "https://prismic.io"
+              }
+            }
+          ],
+          [
+            "button_text",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "Test"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -3,13 +3,18 @@
 import { Dialog, Transition } from '@headlessui/react';
 import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { Fragment, Suspense, useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 
+import { NavDocumentDataNavlistItem, Simplify } from '@/prismicio-types';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { Menu } from 'lib/shopify/types';
-import Search, { SearchSkeleton } from './search';
+import { GroupField } from '@prismicio/client';
+import { PrismicLink } from '@prismicio/react';
 
-export default function MobileMenu({ menu }: { menu: Menu[] }) {
+export default function MobileMenu({
+  menu
+}: {
+  menu: GroupField<Simplify<NavDocumentDataNavlistItem>>;
+}) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [isOpen, setIsOpen] = useState(false);
@@ -71,21 +76,22 @@ export default function MobileMenu({ menu }: { menu: Menu[] }) {
                   <XMarkIcon className="h-6" />
                 </button>
 
-                <div className="mb-4 w-full">
-                  <Suspense fallback={<SearchSkeleton />}>
-                    <Search />
-                  </Suspense>
-                </div>
+                <div className="mb-4 w-full">{/* <Search /> */}</div>
                 {menu.length ? (
                   <ul className="flex w-full flex-col">
-                    {menu.map((item: Menu) => (
+                    {menu.map((item) => (
                       <li
                         className="py-2 text-xl text-black transition-colors hover:text-neutral-500 dark:text-white"
                         key={item.title}
                       >
-                        <Link href={item.path} onClick={closeMobileMenu}>
+                        <PrismicLink
+                          field={item?.path}
+                          internalComponent={Link}
+                          onClick={closeMobileMenu}
+                          className="cursor-pointer text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300"
+                        >
                           {item.title}
-                        </Link>
+                        </PrismicLink>
                       </li>
                     ))}
                   </ul>

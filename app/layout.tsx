@@ -1,42 +1,43 @@
-import Navbar from 'components/layout/navbar';
-import { GeistSans } from 'geist/font/sans';
-import { ensureStartsWith } from 'lib/utils';
-import { ReactNode } from 'react';
+import { PrismicPreview } from '@prismicio/next';
+import { repositoryName } from 'prismicio';
 import './globals.css';
 
-const { TWITTER_CREATOR, TWITTER_SITE, SITE_NAME } = process.env;
-const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL
-  ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
-  : 'http://localhost:3000';
-const twitterCreator = TWITTER_CREATOR ? ensureStartsWith(TWITTER_CREATOR, '@') : undefined;
-const twitterSite = TWITTER_SITE ? ensureStartsWith(TWITTER_SITE, 'https://') : undefined;
+import Footer from 'components/layout/footer';
+import Navbar from 'components/layout/navbar';
+import { Roboto } from 'next/font/google';
 
-export const metadata = {
-  metadataBase: new URL(baseUrl),
-  title: {
-    default: SITE_NAME!,
-    template: `%s | ${SITE_NAME}`
-  },
-  robots: {
-    follow: true,
-    index: true
-  },
-  ...(twitterCreator &&
-    twitterSite && {
-      twitter: {
-        card: 'summary_large_image',
-        creator: twitterCreator,
-        site: twitterSite
-      }
-    })
-};
+const roboto = Roboto({
+  weight: ['400', '500', '700'],
+  subsets: ['latin']
+});
 
-export default async function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={GeistSans.variable}>
-      <body className="bg-neutral-50 text-black selection:bg-teal-300 dark:bg-neutral-900 dark:text-white dark:selection:bg-pink-500 dark:selection:text-white">
+    <html lang="en">
+      {/* <Script id="google-tag-manager" strategy="afterInteractive">
+        {`
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','${process.env.NEXT_PUBLIC_GTM_ID}');
+        `}
+      </Script> */}
+      <body
+        className={`${roboto.className} layout`}
+        style={{
+          boxShadow: '0px 38px 45px rgba(0, 6, 64, 0.10), 0px 5px 18px rgba(0, 0, 0, 0.10)'
+        }}
+      >
         <Navbar />
-        <main>{children}</main>
+        {children}
+        <PrismicPreview repositoryName={repositoryName} />
+        <Footer />
+        {/* <noscript
+          dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`
+          }}
+        /> */}
       </body>
     </html>
   );

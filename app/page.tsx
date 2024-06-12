@@ -1,20 +1,16 @@
-import { Carousel } from 'components/carousel';
-import { ThreeItemGrid } from 'components/grid/three-items';
-import Footer from 'components/layout/footer';
+import { SliceZone } from '@prismicio/react';
+import { createClient } from 'prismicio';
+import { components } from '../slices';
 
-export const metadata = {
-  description: 'High-performance ecommerce store built with Next.js, Vercel, and Shopify.',
-  openGraph: {
-    type: 'website'
-  }
-};
+//export const runtime = process.env.NODE_ENV === 'development' ? 'nodejs' : 'edge';
 
-export default async function HomePage() {
+export default async function Home() {
+  const client = createClient();
+  const page = await client.getSingle('home');
+
   return (
-    <>
-      <ThreeItemGrid />
-      <Carousel />
-      <Footer />
-    </>
+    <main>
+      <SliceZone slices={page.data.slices} components={components} />
+    </main>
   );
 }

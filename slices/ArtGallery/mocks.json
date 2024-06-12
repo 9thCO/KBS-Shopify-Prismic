@@ -1,0 +1,417 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default-slice",
+    "primary": {
+      "filter": {
+        "__TYPE__": "BooleanContent",
+        "value": true
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "image",
+            {
+              "origin": {
+                "id": "main",
+                "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+                "width": 900,
+                "height": 500
+              },
+              "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+              "width": 900,
+              "height": 500,
+              "edit": {
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                },
+                "background": "transparent"
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ],
+          [
+            "subtitle",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "yet",
+              "type": "Text"
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "general",
+              "type": "Text"
+            }
+          ],
+          [
+            "type",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "OGILL",
+              "type": "Select"
+            }
+          ],
+          [
+            "format",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Select",
+              "value": "card-wide"
+            }
+          ],
+          [
+            "link",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "DocumentLink",
+                "id": "mock_document_id"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "image",
+            {
+              "url": "https://images.unsplash.com/photo-1552914953-938eef0ce926?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZnJ1aXR8ZW58MHx8fHwxNjkzNzk4ODUxfDA&ixlib=rb-4.0.3&q=85",
+              "origin": {
+                "id": "Nl7eLS8E2Ss",
+                "url": "https://images.unsplash.com/photo-1552914953-938eef0ce926?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNnx8ZnJ1aXR8ZW58MHx8fHwxNjkzNzk4ODUxfDA&ixlib=rb-4.0.3&q=85",
+                "width": 900,
+                "height": 500
+              },
+              "width": 900,
+              "height": 500,
+              "edit": {
+                "background": "transparent",
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ],
+          [
+            "subtitle",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "Lime"
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "Studies"
+            }
+          ],
+          [
+            "format",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Select",
+              "value": "card-wide"
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "image",
+            {
+              "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+              "origin": {
+                "id": "U1iYwZ8Dx7k",
+                "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+                "width": 900,
+                "height": 500
+              },
+              "width": 900,
+              "height": 500,
+              "edit": {
+                "background": "transparent",
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ],
+          [
+            "subtitle",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "Item"
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "two"
+            }
+          ],
+          [
+            "format",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Select",
+              "value": "card-tall"
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "image",
+            {
+              "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+              "origin": {
+                "id": "U1iYwZ8Dx7k",
+                "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+                "width": 900,
+                "height": 500
+              },
+              "width": 900,
+              "height": 500,
+              "edit": {
+                "background": "transparent",
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ],
+          [
+            "subtitle",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "Item"
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "two"
+            }
+          ],
+          [
+            "format",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Select",
+              "value": "card-tall-wide"
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "image",
+            {
+              "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+              "origin": {
+                "id": "U1iYwZ8Dx7k",
+                "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+                "width": 900,
+                "height": 500
+              },
+              "width": 900,
+              "height": 500,
+              "edit": {
+                "background": "transparent",
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ],
+          [
+            "subtitle",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "Item"
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "two"
+            }
+          ],
+          [
+            "format",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Select",
+              "value": "card-tall"
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "image",
+            {
+              "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+              "origin": {
+                "id": "U1iYwZ8Dx7k",
+                "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+                "width": 900,
+                "height": 500
+              },
+              "width": 900,
+              "height": 500,
+              "edit": {
+                "background": "transparent",
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ],
+          [
+            "subtitle",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "Item"
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "two"
+            }
+          ],
+          [
+            "format",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Select",
+              "value": "card-wide"
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "image",
+            {
+              "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+              "origin": {
+                "id": "U1iYwZ8Dx7k",
+                "url": "https://images.unsplash.com/photo-1557800636-894a64c1696f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwzfHxmcnVpdHxlbnwwfHx8fDE2OTM3OTg4NTF8MA&ixlib=rb-4.0.3&q=85",
+                "width": 900,
+                "height": 500
+              },
+              "width": 900,
+              "height": 500,
+              "edit": {
+                "background": "transparent",
+                "zoom": 1,
+                "crop": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "credits": null,
+              "alt": null,
+              "__TYPE__": "ImageContent",
+              "thumbnails": {}
+            }
+          ],
+          [
+            "subtitle",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "Item"
+            }
+          ],
+          [
+            "title",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Text",
+              "value": "two"
+            }
+          ],
+          [
+            "format",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Select",
+              "value": "card-tall"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

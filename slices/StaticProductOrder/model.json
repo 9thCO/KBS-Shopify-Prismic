@@ -1,0 +1,18 @@
+{
+  "id": "product_order",
+  "type": "SharedSlice",
+  "name": "StaticProductOrder",
+  "description": "ProductOrder",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}

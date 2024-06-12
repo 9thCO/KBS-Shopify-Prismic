@@ -1,0 +1,68 @@
+{
+  "id": "art_gallery",
+  "type": "SharedSlice",
+  "name": "ArtGallery",
+  "description": "ArtGallery",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ArtGallery",
+      "primary": {
+        "filter": {
+          "config": {
+            "label": "Filter",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {
+        "image": {
+          "config": { "label": "image", "constraint": {}, "thumbnails": [] },
+          "type": "Image"
+        },
+        "subtitle": {
+          "config": { "label": "subtitle", "placeholder": "" },
+          "type": "Text"
+        },
+        "title": {
+          "config": { "label": "title", "placeholder": "" },
+          "type": "Text"
+        },
+        "type": {
+          "config": {
+            "label": "type",
+            "placeholder": "",
+            "options": ["OGILL", "Study", "Other"],
+            "default_value": "OGILL"
+          },
+          "type": "Select"
+        },
+        "format": {
+          "config": {
+            "label": "format",
+            "placeholder": "",
+            "options": ["default", "card-wide", "card-tall", "card-tall-wide"],
+            "default_value": "default"
+          },
+          "type": "Select"
+        },
+        "link": {
+          "config": {
+            "label": "link",
+            "placeholder": "",
+            "select": "document",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

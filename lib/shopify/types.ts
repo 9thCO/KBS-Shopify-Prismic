@@ -64,6 +64,7 @@ export type Page = {
 export type Product = Omit<ShopifyProduct, 'variants' | 'images'> & {
   variants: ProductVariant[];
   images: Image[];
+  image: Image;
 };
 
 export type ProductOption = {
@@ -123,6 +124,7 @@ export type ShopifyProduct = {
   variants: Connection<ProductVariant>;
   featuredImage: Image;
   images: Connection<Image>;
+  image: any;
   seo: SEO;
   tags: string[];
   updatedAt: string;

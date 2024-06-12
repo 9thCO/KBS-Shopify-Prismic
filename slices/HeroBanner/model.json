@@ -1,0 +1,54 @@
+{
+  "id": "hero_banner",
+  "type": "SharedSlice",
+  "name": "HeroBanner",
+  "description": "HeroBanner",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Promo Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "background_color": {
+          "type": "Color",
+          "config": { "label": "Background Color", "placeholder": "" }
+        }
+      },
+      "items": {
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "buttonLink",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "select": null
+          }
+        },
+        "button_text": {
+          "type": "Text",
+          "config": { "label": "Button Text", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

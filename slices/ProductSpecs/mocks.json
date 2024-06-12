@@ -1,0 +1,239 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "image0": {
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04",
+          "width": 4000,
+          "height": 4000
+        },
+        "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?rect=0%2C0%2C4000%2C4000&w=300&h=300",
+        "width": 300,
+        "height": 300,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "image1": {
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+          "width": 3935,
+          "height": 5894
+        },
+        "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?rect=0%2C980%2C3935%2C3935&w=300&h=300",
+        "width": 300,
+        "height": 300,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 0,
+            "y": 980
+          },
+          "background": "transparent"
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "image2": {
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+          "width": 5848,
+          "height": 3899
+        },
+        "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?rect=975%2C0%2C3899%2C3899&w=300&h=300",
+        "width": 300,
+        "height": 300,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 975,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "image3": {
+        "origin": {
+          "id": "main",
+          "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0",
+          "width": 3344,
+          "height": 2509
+        },
+        "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?rect=418%2C0%2C2509%2C2509&w=300&h=300",
+        "width": 300,
+        "height": 300,
+        "edit": {
+          "zoom": 1,
+          "crop": {
+            "x": 418,
+            "y": 0
+          },
+          "background": "transparent"
+        },
+        "credits": null,
+        "alt": null,
+        "__TYPE__": "ImageContent",
+        "thumbnails": {}
+      },
+      "tecspecs": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading2",
+            "content": {
+              "text": "Technical Specs",
+              "spans": []
+            },
+            "direction": "ltr"
+          },
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Ex occaecat eu sint sint sunt sit adipisicing sint in qui do culpa id. Dolor ad anim sint dolore eu eu qui et.",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "content",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading3",
+                  "content": {
+                    "text": "Origin",
+                    "spans": []
+                  },
+                  "direction": "ltr"
+                },
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Adipisicing magna eu eu irure mollit dolore.",
+                    "spans": []
+                  },
+                  "direction": "ltr"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "content",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading3",
+                  "content": {
+                    "text": "Origin",
+                    "spans": []
+                  },
+                  "direction": "rtl"
+                },
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Adipisicing magna eu eu irure mollit dolore.",
+                    "spans": []
+                  },
+                  "direction": "rtl"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "content",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading3",
+                  "content": {
+                    "text": "Origin",
+                    "spans": []
+                  },
+                  "direction": "rtl"
+                },
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Adipisicing magna eu eu irure mollit dolore.",
+                    "spans": []
+                  },
+                  "direction": "rtl"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "content",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading3",
+                  "content": {
+                    "text": "Origin",
+                    "spans": []
+                  },
+                  "direction": "rtl"
+                },
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Adipisicing magna eu eu irure mollit dolore.",
+                    "spans": []
+                  },
+                  "direction": "rtl"
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

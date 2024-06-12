@@ -1,0 +1,70 @@
+{
+  "id": "product_specs",
+  "type": "SharedSlice",
+  "name": "ProductSpecs",
+  "description": "ProductSpecs",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "tecspecs": {
+          "type": "StructuredText",
+          "config": {
+            "label": "tecSpecs",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,heading2"
+          }
+        },
+        "image0": {
+          "type": "Image",
+          "config": {
+            "label": "Image Top Left",
+            "constraint": { "width": 300, "height": 300 },
+            "thumbnails": []
+          }
+        },
+        "image1": {
+          "type": "Image",
+          "config": {
+            "label": "Image Top Right",
+            "constraint": { "width": 300, "height": 300 },
+            "thumbnails": []
+          }
+        },
+        "image2": {
+          "type": "Image",
+          "config": {
+            "label": "Image Bottom Left",
+            "constraint": { "width": 300, "height": 300 },
+            "thumbnails": []
+          }
+        },
+        "image3": {
+          "type": "Image",
+          "config": {
+            "label": "Image Bottom RIght",
+            "constraint": { "width": 300, "height": 300 },
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading2,heading3,heading4,heading5,heading6,strong,em,list-item,o-list-item"
+          }
+        }
+      }
+    }
+  ]
+}

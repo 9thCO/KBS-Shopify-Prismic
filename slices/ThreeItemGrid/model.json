@@ -1,0 +1,56 @@
+{
+  "id": "three_item_grid",
+  "type": "SharedSlice",
+  "name": "ThreeItemGrid",
+  "description": "ThreeItemGrid",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "uuid": {
+          "type": "Text",
+          "config": { "label": "uuid", "placeholder": "" }
+        },
+        "itemLarge": {
+          "type": "IntegrationFields",
+          "config": {
+            "catalog": "rooster-forge--rooster_forge_test",
+            "label": "Here goes the field name",
+            "placeholder": "This is the field placeholder..."
+          }
+        },
+        "itemTopSmall": {
+          "type": "IntegrationFields",
+          "config": {
+            "catalog": "rooster-forge--rooster_forge_test",
+            "label": "Here goes the field name",
+            "placeholder": "This is the field placeholder..."
+          }
+        },
+        "itemBottomSmall": {
+          "type": "IntegrationFields",
+          "config": {
+            "catalog": "rooster-forge--rooster_forge_test",
+            "label": "Here goes the field name",
+            "placeholder": "This is the field placeholder..."
+          }
+        },
+        "test": {
+          "type": "Boolean",
+          "config": {
+            "label": "test",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

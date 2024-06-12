@@ -1,0 +1,50 @@
+{
+  "id": "about_image_tile",
+  "type": "SharedSlice",
+  "name": "AboutImageTile",
+  "description": "AboutImageTile",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "img": {
+          "type": "Image",
+          "config": { "label": "img", "constraint": {}, "thumbnails": [] }
+        },
+        "heading": {
+          "type": "Text",
+          "config": { "label": "heading", "placeholder": "" }
+        },
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "content",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        }
+      },
+      "items": {
+        "buttonLink": {
+          "type": "Link",
+          "config": {
+            "label": "buttonLink",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "select": null
+          }
+        },
+        "buttonText": {
+          "type": "Text",
+          "config": { "label": "buttonText", "placeholder": "" }
+        }
+      }
+    }
+  ]
+}

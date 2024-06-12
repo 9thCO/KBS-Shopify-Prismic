@@ -1,0 +1,117 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "uuid": {
+        "__TYPE__": "FieldContent",
+        "value": "largest",
+        "type": "Text"
+      },
+      "itemLarge": {
+        "__TYPE__": "IntegrationFieldsContent",
+        "value": {
+          "id": 8524342329645,
+          "title": "The Collection Snowboard: Oxygen",
+          "body_html": null,
+          "vendor": "Hydrogen Vendor",
+          "product_type": "",
+          "created_at": "2023-07-16T18:39:13-04:00",
+          "handle": "the-collection-snowboard-oxygen",
+          "updated_at": "2023-07-17T15:39:25-04:00",
+          "published_at": "2023-07-16T18:39:15-04:00",
+          "template_suffix": null,
+          "status": "active",
+          "published_scope": "web",
+          "tags": "Accessory, Sport, Winter",
+          "admin_graphql_api_id": "gid://shopify/Product/8524342329645",
+          "variants": [
+            {
+              "id": 45812285210925,
+              "product_id": 8524342329645,
+              "title": "Default Title",
+              "price": "1025.00",
+              "sku": "",
+              "position": 1,
+              "inventory_policy": "deny",
+              "compare_at_price": null,
+              "fulfillment_service": "manual",
+              "inventory_management": "shopify",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null,
+              "created_at": "2023-07-16T18:39:13-04:00",
+              "updated_at": "2023-07-16T18:39:13-04:00",
+              "taxable": true,
+              "barcode": null,
+              "grams": 0,
+              "image_id": null,
+              "weight": 0,
+              "weight_unit": "kg",
+              "inventory_item_id": 47868136096045,
+              "inventory_quantity": 50,
+              "old_inventory_quantity": 50,
+              "requires_shipping": true,
+              "admin_graphql_api_id": "gid://shopify/ProductVariant/45812285210925"
+            }
+          ],
+          "options": [
+            {
+              "id": 10778059997485,
+              "product_id": 8524342329645,
+              "name": "Title",
+              "position": 1,
+              "values": ["Default Title"]
+            }
+          ],
+          "images": [
+            {
+              "id": 42641144021293,
+              "product_id": 8524342329645,
+              "position": 1,
+              "created_at": "2023-07-16T18:39:13-04:00",
+              "updated_at": "2023-07-16T18:39:13-04:00",
+              "alt": "Top and bottom view of a snowboard. The top view shows a stylized scene of trees, mountains, sky and\n        a sun in red colours. The bottom view has blue wavy lines in the background with the text “Oxygen” in a\n        stylized script typeface.",
+              "width": 1600,
+              "height": 1600,
+              "src": "https://cdn.shopify.com/s/files/1/0797/0675/1277/products/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg?v=1689547153",
+              "variant_ids": [],
+              "admin_graphql_api_id": "gid://shopify/ProductImage/42641144021293"
+            }
+          ],
+          "image": {
+            "id": 42641144021293,
+            "product_id": 8524342329645,
+            "position": 1,
+            "created_at": "2023-07-16T18:39:13-04:00",
+            "updated_at": "2023-07-16T18:39:13-04:00",
+            "alt": "Top and bottom view of a snowboard. The top view shows a stylized scene of trees, mountains, sky and\n        a sun in red colours. The bottom view has blue wavy lines in the background with the text “Oxygen” in a\n        stylized script typeface.",
+            "width": 1600,
+            "height": 1600,
+            "src": "https://cdn.shopify.com/s/files/1/0797/0675/1277/products/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg?v=1689547153",
+            "variant_ids": [],
+            "admin_graphql_api_id": "gid://shopify/ProductImage/42641144021293"
+          }
+        }
+      },
+      "itemTopSmall": {
+        "__TYPE__": "IntegrationFieldsContent",
+        "value": "integration-field-product-id"
+      },
+      "itemBottomSmall": {
+        "__TYPE__": "IntegrationFieldsContent",
+        "value": "integration-field-product-id"
+      },
+      "test": {
+        "__TYPE__": "BooleanContent",
+        "value": true
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

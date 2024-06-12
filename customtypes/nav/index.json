@@ -1,0 +1,32 @@
+{
+  "id": "nav",
+  "label": "nav",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "navlist": {
+        "type": "Group",
+        "config": {
+          "label": "NavList",
+          "fields": {
+            "title": {
+              "type": "Text",
+              "config": { "label": "Title", "placeholder": "" }
+            },
+            "path": {
+              "type": "Link",
+              "config": {
+                "label": "path",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "select": null
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,22 +1,22 @@
-import Cart from 'components/cart';
-import OpenCart from 'components/cart/open-cart';
-import LogoSquare from 'components/logo-square';
-import { getMenu } from 'lib/shopify';
-import { Menu } from 'lib/shopify/types';
+import Cart from '@/components/cart';
+import OpenCart from '@/components/cart/open-cart';
+import LogoSquare from '@/components/logo-square';
+import { createClient } from '@/prismicio';
+import { PrismicLink } from '@prismicio/react';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import MobileMenu from './mobile-menu';
-import Search, { SearchSkeleton } from './search';
 const { SITE_NAME } = process.env;
 
 export default async function Navbar() {
-  const menu = await getMenu('next-js-frontend-header-menu');
+  const client = createClient();
+  const navListPrismic = await client.getSingle('nav');
 
   return (
-    <nav className="relative flex items-center justify-between p-4 lg:px-6">
+    <nav className="layout relative flex items-center justify-between p-4 lg:px-6">
       <div className="block flex-none md:hidden">
-        <Suspense fallback={null}>
-          <MobileMenu menu={menu} />
+        <Suspense>
+          <MobileMenu menu={navListPrismic.data?.navlist} />
         </Suspense>
       </div>
       <div className="flex w-full items-center">
@@ -27,26 +27,23 @@ export default async function Navbar() {
               {SITE_NAME}
             </div>
           </Link>
-          {menu.length ? (
+          {navListPrismic.data.navlist.length ? (
             <ul className="hidden gap-6 text-sm md:flex md:items-center">
-              {menu.map((item: Menu) => (
+              {navListPrismic.data.navlist.map((item) => (
                 <li key={item.title}>
-                  <Link
-                    href={item.path}
-                    className="text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300"
+                  <PrismicLink
+                    field={item?.path}
+                    internalComponent={Link}
+                    className="cursor-pointer text-neutral-500 underline-offset-4 hover:text-black hover:underline dark:text-neutral-400 dark:hover:text-neutral-300"
                   >
                     {item.title}
-                  </Link>
+                  </PrismicLink>
                 </li>
               ))}
             </ul>
           ) : null}
         </div>
-        <div className="hidden justify-center md:flex md:w-1/3">
-          <Suspense fallback={<SearchSkeleton />}>
-            <Search />
-          </Suspense>
-        </div>
+        <div className="hidden justify-center md:flex md:w-1/3">{/* <Search /> */}</div>
         <div className="flex justify-end md:w-1/3">
           <Suspense fallback={<OpenCart />}>
             <Cart />
